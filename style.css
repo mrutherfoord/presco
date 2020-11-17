@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 *::before {
@@ -14,16 +13,46 @@
 body {
   font-family: "Manrope", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.header-image {
-  border-radius: 0 0 10px 10px;
+.header-container {
+  background-color: #b5bcc4;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  display: block;
-  margin: 0 auto 2rem auto;
+  height: 250px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.header-stuff {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+}
+
+.title-container {
+  /* set to height of rona.png image */
+  height: 160px;
+}
+
+.title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.sub-title {
+  color: #fff;
+  font-size: 2rem;
 }
 
 .data-container {
+  border: 0;
   height: 100vh;
   width: 100%;
 }
