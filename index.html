@@ -10,29 +10,33 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <!-- Google Fonts Manrope -->
+    <!-- Google Fonts Manrope: Medium, Extra-Bold -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet">
 
   </head>
 
   <body>
-    <img
-      src="presco.png"
-      alt="PRESCO dashboard header image"
-      class="header-image"
-      >
+    <div class="header-container">
+      <div class="header-stuff">
+        <div class="rona">
+          <img src="rona.png" alt="image of coronavirus">
+        </div>
+        <div class="title-container">
+          <div class="title">PRESCO</div>
+          <div class="sub-title">Predictors of Severe Covid-19 Outcomes</div>
+        </div>
+      </div>
+    </div>
 
     <iframe
       src="https://public.tableau.com/views/PRESCO_Dashboards/CovidMap?:showVizHome=no&:embed=true"
-      frameborder="0"
       class="data-container"
       >
     </iframe>
 
   <iframe
     src="https://public.tableau.com/views/PRESCO_Dashboards/PRESCODashboard?:showVizHome=no&:embed=true"
-    frameborder="0"
     class="data-container"
     >
   </iframe>
