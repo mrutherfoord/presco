@@ -1,27 +1,42 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-  <title>PRESCO Study Data</title>
-  <meta name="description" content="PRESCO Study Data">
-  <meta name="Melissa Rutherfoord" content="SitePoint">
+    <title>PRESCO Study Data</title>
+    <meta name="description" content="PRESCO Study Data">
+    <meta name="author" content="Melissa Rutherfoord">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <style type="text/css">
-   iframe {
-     height:100vh;
-     width:100vw;
-   }
-  </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-</head>
+    <!-- Google Fonts Manrope -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 
-<body>
- 
-  <iframe src="https://public.tableau.com/views/PRESCO_Dashboards/CovidMap?:showVizHome=no&:embed=true" frameborder="0"></iframe></center>
-  <iframe src="https://public.tableau.com/views/PRESCO_Dashboards/PRESCODashboard?:showVizHome=no&:embed=true" frameborder="0"></iframe></center>
-  <script src="js/scripts.js"></script>
-</body>
+  </head>
+
+  <body>
+    <img
+      src="presco.png"
+      alt="PRESCO dashboard header image"
+      class="header-image"
+      >
+
+    <iframe
+      src="https://public.tableau.com/views/PRESCO_Dashboards/CovidMap?:showVizHome=no&:embed=true"
+      frameborder="0"
+      class="data-container"
+      >
+    </iframe>
+
+  <iframe
+    src="https://public.tableau.com/views/PRESCO_Dashboards/PRESCODashboard?:showVizHome=no&:embed=true"
+    frameborder="0"
+    class="data-container"
+    >
+  </iframe>
+
+  </body>
+
 </html>
