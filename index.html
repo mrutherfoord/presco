@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>PRESCO Study Data</title>
     <meta name="description" content="PRESCO Study Data">
@@ -20,7 +21,7 @@
     <div class="header-container">
       <div class="header-stuff">
         <div class="rona">
-          <img src="rona.png" alt="image of coronavirus">
+          <img src="assets/rona.png" alt="image of coronavirus">
         </div>
         <div class="title-container">
           <div class="title">PRESCO</div>
@@ -29,19 +30,30 @@
       </div>
     </div>
 
-    <iframe
-      src="https://public.tableau.com/views/PRESCO_Dashboards/CovidMap?:showVizHome=no&:embed=true"
-      class="data-container"
+    <div class="iframe-land">
+      <iframe
+        src="https://public.tableau.com/views/PRESCO_Dashboards/CovidMap?:showVizHome=no&:embed=true"
+        class="data-container"
+        title="study participant locations by zip code map"
       >
-    </iframe>
+      </iframe>
 
-  <iframe
-    src="https://public.tableau.com/views/PRESCO_Dashboards/PRESCODashboard?:showVizHome=no&:embed=true"
-    class="data-container"
-    >
-  </iframe>
+      <iframe
+        src="https://public.tableau.com/views/PRESCO_Dashboards/PRESCODashboard?:showVizHome=no&:embed=true"
+        class="data-container"
+        title="tableau chart and tables"
+      >
+      </iframe>
 
-    <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/69b81aa3-83b2-4faa-8064-74e5fe3c6412" id="DCbPxMJg3.m1"></iframe></div>
+      <iframe
+        allowfullscreen
+        src="https://lucid.app/documents/embeddedchart/69b81aa3-83b2-4faa-8064-74e5fe3c6412"
+        class="data-container"
+        title="presco flowchart"
+      >
+      </iframe>
+    </div>
+
   </body>
 
 </html>

@@ -19,7 +19,7 @@ body {
 
 .header-container {
   background-color: #b5bcc4;
-  background-image: url("background.png");
+  background-image: url("assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
